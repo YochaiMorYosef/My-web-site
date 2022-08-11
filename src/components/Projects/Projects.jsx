@@ -19,6 +19,15 @@ function Projects() {
         </h1>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+     <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Bootstrap Server"
+              description="Web application for registration and authentication between clients and servers. Developed using MongoDB, Express, React JS & Node JS (MERN architecture)."
+              link="https://github.com/YochaiMorYosef/Bootstrap-Server"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
